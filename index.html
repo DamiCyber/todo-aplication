@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <center class="con">
+    <h2 class="main"><span>min</span>i mart</h2> 
+    <div id="error"></div>
+    <input type="text" placeholder="Enter Your Todo"  id="todo">
+    <button onclick="submitTodo()" class="btn">Submit Todo</button>
+     <div id="disp"></div><br>
+     <div class="btns">
+        <button onclick=" addfirst()" class="btn1">add to start</button >
+        <button onclick="deletefirst()"class="btn1">delete first</button>
+        <button onclick=" editany()" class="btn1">Edit any</button>
+        <button onclick=" deleteany()"class="btn1">delete any</button>
+        <button onclick="deletelast()"class="btn1">delete last</button>
+     </div>
+   </center>
+    <script src="./script.js"></script>
+</body>
+</html>
